@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Who can open a Kvitka Pro account?",
+    "answer": "If you're a registered business ready to grow, you're welcome here! As long as your company passes our quick KYB and compliance check, you're good to go."
+  },
+
+  {
+    "question": "What documents do I need?",
+    "answer": "In order to start our collaboration, please submit the required documentation by e-mail at support-kvitka@gbhs.fr:\n\n• Registration certificate || certificate of incorporation\n• Articles of Associations\n• UBO and Shareholders register or equivalent proving company ownership\n• ID documents (UBOs and directors)\n\nApproval Process:\n\n• Wait for our team to review the submitted documentation.\n• You will receive email notifications about the approval status.\n• Our team typically processes requests within 2–3 business days."
+  },
+
+  {
+    "question": "Can everyone access crypto features?",
+    "answer": "Yes, all our account holders have access to integrated crypto wallets supporting major cryptocurrencies (such as ETH, BNB, MATIC, USDC, USDT), etc."
+  },
+  {
+    "question": "How do I track my transactions?",
+    "answer": "The KViTKA Pro provides real-time tracking of all transactions, directly from the web platform."
+  },
+  {
+    "question": "Where can I receive payments from?",
+    "answer": "You can receive payments from worldwide, except certain jurisdictions due to compliance regulations. Prohibited jurisdictions are listed here."
+  },
+  {
+    "question": "To whom can I send payments to?",
+    "answer": "You can send payments to worldwide, except certain jurisdictions due to compliance regulations. Prohibited jurisdictions are listed here."
+  },
+  {
+    "question": "Are there any places you don’t support yet?",
+    "answer": "KViTKA Pro does not support accounts or transactions involving certain jurisdictions due to compliance regulations. Prohibited jurisdictions are listed here."
+  }
+]

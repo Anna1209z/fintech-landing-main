@@ -1,0 +1,159 @@
+.section {
+  padding: 40px 16px 140px;
+  background-color: var(--color-white);
+  color: var(--color-text);
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.top {
+  max-width: 445px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 1.22;
+  margin-bottom: 1rem;
+  color: #113453;
+  text-transform: uppercase;
+}
+
+.top h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.56;
+  margin-bottom: 0.5rem;
+  color: #113453;
+}
+
+.top p {
+  max-width: 360px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #586673;
+}
+
+.top p a {
+    color: var(--color-bt);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 817px;
+  width: 100%;
+}
+
+.item {
+  margin-bottom: 1.5rem;
+  /* border: 1px solid var(--color-gray-200); */
+  border-radius: 1.5rem;
+  background-color: var(--color-bg);
+  padding: 1.5rem;
+}
+
+/* Приховати стандартний маркер summary */
+.summary::-webkit-details-marker {
+  display: none;
+}
+.summary::marker {
+  display: none;
+}
+
+/* summary як flex — для вирівнювання іконки та тексту */
+.summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem; /* місце для +/– */
+  font-weight: 600;
+  color: #113453;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+/* Кастомний маркер (+ або –) */
+.summary::before {
+  content: "+";
+  position: absolute;
+  left: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #113453;
+}
+
+/* Коли <details open> — змінюємо на – */
+.details[open] > .summary::before {
+  content: "–";
+}
+
+
+.answer {
+  margin-top: 0.5rem;
+  color: #586673;
+  font-size: 1rem;
+  line-height: 1.5;
+  white-space: pre-line;
+  padding-left: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+.section {
+  padding: 40px 16px 80px;
+ 
+}
+
+  .container {
+    min-width: 343px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .top {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    line-height: 1.33;
+  }
+
+  .top p {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.43;
+    color: #586673;
+    margin: 0 auto;
+  }
+
+  .item {
+  margin-bottom: 1.25rem;
+  border-radius: 1.5rem;
+  padding: 0.75rem;
+}
+
+  .summary {
+    font-size: 0.95rem;
+  }
+
+  .answer {
+    font-size: 0.85rem;
+  }
+}

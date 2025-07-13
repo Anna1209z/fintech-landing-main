@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Starter Corporate Pack",
+    "comment": "Best for SMEs and Enterprises",
+    "action": "Get Started",
+    "link": "mailto:kvitka@gbhs.fr",
+    "features": [
+  "Multi-currency Fiat & Crypto",
+  "Fast-Track Onboarding",
+  "Transparent transaction fees",
+  "Email & Chat Support",
+  "Yes",
+  "Included",
+  "Full access",
+  "Yes",
+  "Optional"
+]
+  },
+  {
+    "name": "Freelancer Pack",
+    "comment": "Perfect for Independent Professionals",
+    "action": "Get Registered",
+    "link": "mailto:kvitka@gbhs.fr",
+    "features": [
+  "Crypto & Fiat Support",
+  "Fast-Track Onboarding",
+  "Low setup and monthly fee",
+  "Email & Chat Support",
+  "Yes",
+  "Included",
+  "Simplified UI",
+  "Yes",
+  "No"
+]
+  },
+  {
+    "name": "Business Pack",
+    "comment": "Solutions for Scaling Businesses",
+    "action": "Get Banking",
+    "link": "mailto:kvitka@gbhs.fr",
+    "features": [
+  "Multi-currency + Integrations",
+  "Fast-Track Onboarding",
+  "Flat monthly fee",
+  "Priority Email & Phone",
+  "Yes",
+  "Included",
+  "Advanced Tools",
+  "Yes",
+  "Optional"
+]
+  },
+  {
+    "name": "Global Growth Pack",
+    "comment": "Ideal for High-Volume & Global Firms",
+    "action": "Contact Us",
+    "link": "mailto:kvitka@gbhs.fr",
+    "features": [
+  "Advanced VIP Support",
+  "Fast-Track Onboarding",
+  "Custom pricing",
+  "Dedicated Account Manager",
+  "Yes",
+  "Full Access",
+  "API, Automation, Integrations",
+  "Yes",
+  "Included"
+]
+  }
+]

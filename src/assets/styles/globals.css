@@ -1,0 +1,148 @@
+@import "modern-normalize/modern-normalize.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Medium.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Bold.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Light.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Regular.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-UltraLight.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-UltraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  src: url('/fonts/e-UkraineHead-Thin.woff2') format('woff2'),
+       url('/fonts/e-UkraineHead-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --font-title: 'e-Ukraine Head', sans-serif;
+  --font-family: 'Inter', sans-serif;
+
+  --color-bg: #F5F5F6;
+  --color-white: #FFFFFF;
+  --color-text-title: #113453;
+  --color-text: #1D1E25;
+  --color-text-muted: #586673;
+  --color-bt:#1782CA;
+  --color-bt-hover:#136DAA;
+  --color-primary-200: #A2CDEA;
+  --color-primary-300:#74B4DF;
+  /* --color-text: #111111; */
+  --color-primary: #0057B8;
+  --color-gray-50: #F9FAFB;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #e5e7eb;
+  --color-gray-600: #4b5563;
+  
+  --transition-fast: 0.2s ease-in-out;
+  --transition-slow: 0.4s ease;
+
+ /* primary/200  - #A2CDEA 
+    primary/300  - #74B4DF
+    primary/500  - #1782CA
+    primary/600  - #136DAA
+   
+ */
+}
+
+
+body {
+
+  font-family: var(--font-family);
+  background-color: var(--color-white);
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ul, li {
+  list-style: none ;
+  margin: 0;
+  padding: 0;
+} */
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+
+
